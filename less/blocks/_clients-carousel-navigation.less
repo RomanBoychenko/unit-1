@@ -1,0 +1,82 @@
+.clients-carousel.owl-carousel .owl-nav button.owl-prev {
+    width: 52px;
+    height: 52px;
+    
+    background-image: url("../img/carousel/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -20px;
+    transform: translate(-100%, 100%);
+    
+    outline: none;
+
+    &:hover {
+        outline: none;
+        opacity: 0.7;
+    }
+
+    span {
+        display: none;
+    }
+    
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        bottom: auto;
+        margin-left: 0;
+    
+        top: 10px;
+        left: 0;
+        transform: unset;
+    }
+    // Для десктопов
+    @media (min-width: 1200px) {
+        top: 16px;
+        left: -50px;
+        transform: translateX(-100%);
+    }
+}
+.clients-carousel.owl-carousel .owl-nav button.owl-next{
+    width: 52px;
+    height: 52px;
+
+    background-image: url("../img/carousel/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    margin-left: 20px;
+    transform: translateY(100%);
+    outline: none;
+
+    &:hover {
+        outline: none;
+        opacity: 0.7;
+    }
+
+    span {
+        display: none;
+    }
+    
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        top: 10px;
+        right: 0;
+        left: auto;
+        margin-left: 0;
+        transform: unset;
+    }
+    // Для десктопов
+    @media (min-width: 1200px) {
+        top: 16px;
+        right: -50px;
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,99 @@
+.section-price {
+    background-color: #49c38f;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    color: #ffffff;
+    text-align: center;
+    
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        position: relative;
+
+        padding-bottom: 80px;
+    
+        background-color: darkgray;
+        background-image: url("../img/price/bg-price.jpg");
+        background-position: center 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    // Для десктопов
+    @media (min-width: 1200px) {
+        padding-top: 108px;
+        padding-bottom: 90px;
+    }
+}
+
+.section-price::before {
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        content: "";
+        display: block;
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.price-container {   
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        position: relative;
+    }
+}
+.price-section-title {
+    margin-bottom: 35px;
+  
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        margin-bottom: 32px;
+    }
+    // Для десктопов
+    @media (min-width: 1200px) {
+        margin-bottom: 71px;
+    }  
+}
+
+.price-section-header {
+    margin-bottom: 42px;
+    
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        margin-bottom: 60px;
+    }
+    // Для десктопов
+    @media (min-width: 1200px) {
+        margin-bottom: 77px;
+    }
+}
+
+.price-section-title h2{
+    color: #ffffff;
+}
+.price-section-header h3{
+    color: #ffffff;
+
+}
+
+.section-clients__tittle .section-title--small {
+    letter-spacing: 2.8px;
+}
+
+.tariffes-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    // Для планшетов и выше
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+}
