@@ -5,7 +5,7 @@
 - Оптимизация под десктоп, планшеты и смартфоны. 3 разрешения.
 - Подключен и настроен слайдер Owl Carousel
 
-#### [Онлайн демо](https://https://github.com/veronica-ivanova/unit)
+#### [Онлайн демо](https://veronica-ivanova.github.io/unit/)
 
 ### Тестировать локально:
 - ```
